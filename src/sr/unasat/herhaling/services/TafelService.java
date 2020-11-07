@@ -20,4 +20,9 @@ public class TafelService {
         System.out.println();
     }
 
+    //Implementeer de onderstaande 2 methods
+    //tafelVanXForLoop
+    //tafelVanXWhileLoop
+    // X is d tafel die je wenst uit te printen. gebruik een parameter
+
 }
