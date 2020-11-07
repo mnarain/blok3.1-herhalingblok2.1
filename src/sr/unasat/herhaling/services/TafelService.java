@@ -42,6 +42,22 @@ public class TafelService {
     }
     // implementeer onderstaande methods nu met 3 parameters en volgorde (begin,eind,tafel)
     //tafelVanXForLoop
-    //tafelVanXWhileLoop
+    public void tafelVanXForLoop(int begin, int eind, int tafel) {
+        System.out.println("Running tafel van " + tafel + " ForLoop");
+        for (int multiplier = begin; multiplier <= eind; multiplier++) {
+            System.out.println(multiplier + " * " + tafel + " = " + (multiplier * tafel));
+        }
+        System.out.println();
+    }
 
+    //tafelVanXWhileLoop
+    public void tafelVanXWhileLoop(int begin, int eind, int tafel) {
+        System.out.println("Running tafel van " + tafel + " WhileLoop");
+        int multiplier = begin;
+        while (multiplier <= eind) {
+            System.out.println(multiplier + " * " + tafel + " = " + (multiplier * tafel));
+            multiplier++;
+        }
+        System.out.println();
+    }
 }

@@ -9,5 +9,7 @@ public class Application {
         //ts.tafelVan10WhileLoop();
         ts.tafelVanXForLoop(55);
         ts.tafelVanXWhileLoop(55);
+        ts.tafelVanXForLoop(5,7,23);
+        ts.tafelVanXWhileLoop(2,12,80);
     }
 }
